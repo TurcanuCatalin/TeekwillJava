@@ -1,3 +1,5 @@
+package things;
+
 import java.util.Scanner;
 
 public class TextManipulation {
@@ -38,5 +40,6 @@ public class TextManipulation {
         System.out.println(d);
         System.out.println(p);
         }
+
 
 }
