@@ -1,16 +1,18 @@
 package classDiagrams;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Document {
-    String [] authors;
+    ArrayList<String> authors = new ArrayList<>();
     LocalDate date;
 
-    public String[] getAuthors() {
+    public ArrayList<String> getAuthors() {
         return authors;
     }
 
     public void addAuthor(String name){
+        authors.add(name);
         System.out.println(name + " is the author of the book");
     }
     public void getDate(){

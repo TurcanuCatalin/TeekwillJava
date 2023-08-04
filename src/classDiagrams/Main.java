@@ -13,18 +13,18 @@ public class Main {
 //        fish.glubGlub();
 //    }
 
-//    public static void main(String[] args) {
-//       Document document = new Document();
-//       Book book = new Book();
-//       EMail eMail = new EMail();
-//       document.addAuthor("ION CREANGA");
-//       document.getDate();
-//       //document.getAuthors();
-//       book.getTitle();
-//       eMail.getSubject();
-//       eMail.getTo();
-//
-//    }
+    public static void main(String[] args) {
+       Document document = new Document();
+       Book book = new Book();
+       EMail eMail = new EMail();
+       document.addAuthor("ION CREANGA");
+       document.getDate();
+        System.out.println(document.getAuthors());
+       book.getTitle();
+       eMail.getSubject();
+       eMail.getTo();
+
+    }
 
 
 }
